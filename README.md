@@ -4,7 +4,7 @@ This is a small Python/pandas practice project built to understand how ETL pipel
 
 ## Project Overview
 
-The project creates fake loan-level data with PD, LGD, and EAD fields. It then performs basic data cleaning, including duplicate removal, missing-value checks, and validation of key risk fields.
+The project creates synthetic loan-level data with PD, LGD, and EAD fields. It then performs basic data cleaning, including duplicate removal, missing-value checks, and validation of key risk fields.
 
 After cleaning the data, the project calculates expected loss using:
 
@@ -15,7 +15,7 @@ It also applies a simple stress scenario by increasing PD by 20% and recalculati
 ## Files
 
 - `credit_risk_etl_practice.ipynb`: main notebook
-- `fake_loans.csv`: fake input loan-level data
+- `synthetic_loans.csv`: synthetic input loan-level data
 - `portfolio_risk_summary.csv`: portfolio-level output summary
 
 ## What I Practiced
