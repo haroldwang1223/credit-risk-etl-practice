@@ -12,6 +12,8 @@ Expected Loss = PD × LGD × EAD
 
 It also applies a simple stress scenario by increasing PD by 20% and recalculating expected loss. Finally, it summarizes base and stressed expected loss by portfolio and exports the result as a CSV.
 
+The dataset is fully synthetic and does not contain any real client, company, or confidential information.
+
 ## Files
 
 - `credit_risk_etl_practice.ipynb`: main notebook
